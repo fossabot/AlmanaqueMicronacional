@@ -1,0 +1,25 @@
+# Configuration for support-requests - https://github.com/dessant/support-requests
+
+# Label used to mark issues as support requests
+supportLabel: 'Tipo: Suporte'
+
+# Comment to post on issues marked as support requests, `{issue-author}` is an
+# optional placeholder. Set to `false` to disable
+supportComment: >
+  :wave: @{issue-author}, este rastreador é usado exclusivaente para
+  relatórios de erros, requisições de funcionalidades e adições de
+  novas micronações. Porém, seu issue parece ser um pedido de suporte
+  e por isso será fechado. Veja /docs/SUPPORT.md sobre como solicitar
+  suporte. Obrigado por sua compreensão.
+
+# Close issues marked as support requests
+close: true
+
+# Lock issues marked as support requests
+lock: true
+
+# Assign `off-topic` as the reason for locking. Set to `false` to disable
+setLockReason: true
+
+# Repository to extend settings from
+# _extends: repo
